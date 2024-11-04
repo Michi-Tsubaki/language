@@ -117,9 +117,9 @@ println("b = $(a+3)")
 
 #ファイルの書き出し
 println("[ファイルの書き出し]")
-fp = open("test.txt","w")
+fp = open("Julia_test2.txt","w")
 println(fp,"hello world")
 close(fp)
-println("fp = open(\"test.txt\",\"w\")")
+println("fp = open(\"juali_test2.txt\",\"w\")")
 println("println(fp,\"hello world\")")
 println("close(fp)")
