@@ -1,5 +1,5 @@
-;;Robot_Sytem_3_kadai2(Optional)  ;;Coding Rational Class using Euslisp
-;;Written by 03240281 Michi-Tsubaki
+#!/usr/bin/env roseus
+
 (defclass rat
   :super propertied-object
   :slots (numer denom))
