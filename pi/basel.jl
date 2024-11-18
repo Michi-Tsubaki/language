@@ -22,3 +22,9 @@ function test()
 end
 
 ncs, bs = test()
+
+using Plots
+plot(ncs, bs)
+savefig("basel.pdf")
+plot(ncs,bs,xscale=:log10, yscale=:log10,markershape= :circle, label ="Basel", xlabel="cutoff num", ylabel="relative error")
+savefig("basellog.pdf")
